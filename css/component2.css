@@ -1,3 +1,53 @@
+.container{
+	margin: 0;
+	padding: 0;
+	margin-right: 0;
+	width: 100%;
+	max-width: 100%;
+}
+label {
+	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	color: #248f8f;
+
+}
+
+
+.h1 {
+	color: lightgrey;
+	font-family: 'Raleway', sans-serif;
+    font-style: oblique;
+    font-weight: lighter;
+    font-size: 36px;
+    text-align: center;
+}
+
+
+}
+#email-input {
+	width: 40%;
+}
+
+
+#zip-code-input {
+	width: 100%;
+	display: inline-block;
+}
+
+small {
+font-size: 15px;
+font-style: oblique;
+margin: 0;
+padding: 0;
+}
+
+
+
 * {
 	position: relative;
 	-moz-box-sizing: border-box;
@@ -43,11 +93,14 @@ body {
 	font-size: 12em;
 	opacity: 0.1;
 	cursor: default;
+	font-family: 'Raleway', sans-serif;
+
 }
 
 h2 {
 	color: #2eb8b8;
 	size: 67px;
+	font-family: 'Raleway', sans-serif;
 }
 
 .cn-button {
@@ -165,7 +218,7 @@ h2 {
 	text-align: center;
 	text-decoration: none;
 	font-size: 1.2em;
-	line-height: 2;
+	line-height: 1;
 	-webkit-transform: skew(-60deg) rotate(-75deg) scale(1);
 	-moz-transform: skew(-60deg) rotate(-75deg) scale(1);
 	-ms-transform: skew(-60deg) rotate(-75deg) scale(1);
@@ -173,6 +226,8 @@ h2 {
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 	pointer-events: auto;
+	font-family: 'Raleway', sans-serif;
+	font-style: lighter;
 }
 
 .csstransforms .cn-wrapper li a span {

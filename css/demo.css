@@ -30,10 +30,10 @@ a {
 }
 
 .container > header h1 {
-	font-size: 2.625em;
+	font-size: 3.5em;
 	line-height: 1.3;
 	margin: 0;
-	font-weight: 300;
+	font-weight: 40;
 }
 
 .container > header span {
